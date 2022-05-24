@@ -174,35 +174,32 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-           <h5> Productos en carrito de compras: </h5>
-           <table class="table">
+        <div class="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+           <h5 class="text-white-50"> Productos en tu carrito de compras: </h5>
+           <br>
+           <table class="table table table-dark table-striped">
             <thead>
-              <tr>
+              <tr class="text-primary">
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Productos</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td class="table__productos">
+                    <img class="imageC" src="/IMG/corazon.png"></img>
+                    <h6 class="title">Title</h6>
+                </td>
+                <td class="table__precio"><p>$ 5</p></td>
+                <td class="table__cantidad">
+                    <input type="number" min="1" value="1">
+                    <button class="delete btn btn-danget">x</button>
+                </td>
               </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
+              
             </tbody>
           </table>
         
